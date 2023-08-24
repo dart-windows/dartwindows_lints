@@ -1,39 +1,32 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+<img src="https://raw.githubusercontent.com/dart-windows/.github/main/assets/dart-windows-card.png" width="50%" height="50%">
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
+A set of lints used by the Dart | Windows organization to analyze their packages
+and repositories; it's built on top of `package:lints/recommended.yaml`.
+Part of the [Dart | Windows][dart_windows_link] suite of Windows packages.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+[![Package: dartwindows_lints][package_badge]][package_link]
+[![Publisher: win32.pub][publisher_badge]][publisher_link]
+[![License: BSD-3-Clause][license_badge]][license_link]
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+To use the lints, add a dependency in your `pubspec.yaml` file:
 
-```dart
-const like = 'sample';
+```yaml
+dev_dependencies:
+  dartwindows_lints: ^1.0.0
 ```
 
-## Additional information
+then, add an `analysis_options.yaml` file to your project:
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+```yaml
+include: package:dartwindows_lints/analysis_options.yaml
+```
+
+[dart_windows_link]: https://github.com/dart-windows
+[license_badge]: https://img.shields.io/github/license/dart-windows/dartwindows_lints?color=blue
+[license_link]: https://opensource.org/licenses/BSD-3-Clause
+[package_badge]: https://img.shields.io/pub/v/dartwindows_lints.svg
+[package_link]: https://pub.dev/packages/dartwindows_lints
+[publisher_badge]: https://img.shields.io/pub/publisher/dartwindows_lints.svg
+[publisher_link]: https://pub.dev/publishers/win32.pub
