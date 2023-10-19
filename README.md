@@ -14,7 +14,7 @@ To use the lints, add a dependency in your `pubspec.yaml` file:
 
 ```yaml
 dev_dependencies:
-  dartwindows_lints: ^1.0.0
+  dartwindows_lints: ^1.1.0
 ```
 
 then, add an `analysis_options.yaml` file to your project:

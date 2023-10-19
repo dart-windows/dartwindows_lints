@@ -1,6 +1,6 @@
 name: dartwindows_lints
 description: A set of lint rules used by the Dart | Windows organization.
-version: 1.0.0
+version: 1.1.0
 repository: https://github.com/dart-windows/dartwindows_lints
 
 topics:
@@ -11,4 +11,4 @@ environment:
   sdk: ^3.1.0
 
 dependencies:
-  lints: ">=2.1.1 <4.0.0"
+  lints: ^3.0.0
